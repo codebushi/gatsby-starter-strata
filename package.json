@@ -5,8 +5,8 @@
   "author": "Hunter Chang",
   "dependencies": {
     "gatsby": "^1.9.146",
-    "gatsby-link": "^1.6.32",
     "gatsby-image": "^1.0.31",
+    "gatsby-link": "^1.6.32",
     "gatsby-plugin-google-analytics": "^1.0.14",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.15",
@@ -16,7 +16,8 @@
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-remark": "^1.7.25",
     "gatsby-transformer-sharp": "^1.6.16",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "react-images": "^0.5.14"
   },
   "homepage": "https://github.com/ChangoMan/gatsby-starter-strata",
   "keywords": [
