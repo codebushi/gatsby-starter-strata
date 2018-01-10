@@ -1291,12 +1291,6 @@
 		/* Footer */
 
 			#footer {
-				background-attachment:	scroll;
-				background-color:		_palette(accent2, bg);
-				background-image:		url('images/overlay.png'),		url('../images/bg.jpg');
-				background-position:	top left,						bottom center;
-				background-repeat:		repeat,							no-repeat;
-				background-size:		auto,							cover;
 				bottom: auto;
 				left: auto;
 				padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
@@ -1496,3 +1490,14 @@
 			}
 
 	}
+
+@media screen and (max-width: 480px) {
+	.\36 u,
+	.\36 u24,
+	.\38 u,
+	.\38 u24,
+	.\34 u,
+	.\34 u24 {
+		width: 100%;
+	}
+}
