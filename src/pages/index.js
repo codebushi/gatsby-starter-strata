@@ -1,8 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
+import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
@@ -76,11 +75,11 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = this.props.data.site.siteMetadata.title
-        const siteDescription = this.props.data.site.siteMetadata.description
+        const siteTitle = "Gatsby Starter - Strata"
+        const siteDescription = "Site description"
 
         return (
-            <div>
+            <Layout>
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
@@ -153,20 +152,9 @@ class HomeIndex extends React.Component {
 
                 </div>
 
-            </div>
+            </Layout>
         )
     }
 }
 
 export default HomeIndex
-
-export const pageQuery = graphql`
-    query PageQuery {
-        site {
-            siteMetadata {
-                title
-                description
-            }
-        }
-    }
-`
