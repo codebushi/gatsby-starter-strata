@@ -1,0 +1,55 @@
+# An alternative way to add social media icons to your nav bar
+# Check https://jreel.github.io/social-media-icons-on-jekyll/ for guide
+
+twitter:
+  id: 'your-twitter-name'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'icon brands fa-twitter'
+
+github:
+  id: 'your-github-name'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'icon brands fa-github'
+
+dribbble:
+  id: 'your-dribbble-username'
+  href: 'https://www.dribbble.com/'
+  title: 'Dribbble'
+  fa-icon: 'icon brands fa-dribbble'
+
+email:
+  id: 'your.name@yoursite.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'icon solid fa-envelope'
+
+# You can re-arrange the list to display the social media icons you want to use
+# 5 icons recommended maximum
+# Note that spacing is important for the icons to display
+
+#facebook: 
+# id: 'your-facebook-name'
+# href: 'https://www.facebook.com/'
+# title: 'Facebook'
+# fa-icon: 'icon brands fa-facebook'
+
+#instagram: 
+# id: 'your-instagram-name'
+# href: 'https://www.instagram.com/'
+# title: 'instagram'
+# fa-icon: 'icon brands fa-instagram'
+
+#linkedin: 
+# id: 'your-linkedin-name'
+# href: 'https://www.linkedin.com/'
+# title: 'Linkedin'
+# fa-icon: 'icon brands fa-linkedin'
+
+#tumblr: 
+# id: 'your-tumblr-name'
+# href: 'https://www.tumblr.com/'
+# title: 'Tumbler'
+# fa-icon: 'icon brands fa-tumblr'
+

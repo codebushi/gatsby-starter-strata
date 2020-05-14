@@ -1,0 +1,45 @@
+# Site Config for social shares.
+# Change the avatar.jpg to display your image
+
+author: "Your Name"
+title: "I'm John Doe"
+tagline: "A Dark Portfolio single page site built with Jekyll"
+description: "Add a line of text here for social shares"
+image: /images/avatar.jpg
+
+# Social (includes SEO)
+# This section is optional. If you fill this section in, please
+# activate the Footer section code in the index.html file and remove the {% include footer.html %}.
+
+# Social Media icons & links (max 5 suggested)
+social-network-links:
+  twitter: youraccount
+  github: youraccount
+  dribbble: youraccount
+  email: example@email.com
+# Additional social media link options (you can hide whichever ones you don't want to use)
+# facebook: facebook
+# instagram: instagram
+# linkedin: linkedin
+# tumblr: tumblr
+
+
+# Markdown Processing
+markdown: kramdown
+highlighter: rouge
+
+baseurl: ""
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Plugins
+plugins: [jekyll-seo-tag]  
+
+exclude: [
+  Gemfile*,
+  .gitignore,
+]

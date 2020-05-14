@@ -1,0 +1,29 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  {% seo %}
+
+  <body class="is-preload">
+  	{% include header.html %} 
+    {{ content }}
+  </body>
+
+ <!-- Footer / Social Icons -->
+
+ <footer id="footer">
+
+   {% include footer.html %} 
+
+  <!-- Use can replace the footer.html with social.html and configure your socialo media accounts from config.yml directly  -->
+
+ </footer> 
+     <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.poptrox.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+</html>

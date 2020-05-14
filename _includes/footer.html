@@ -1,0 +1,22 @@
+<!-- This is for the social media icons in the footer section -->
+<!-- Please edit the _data/social-media.yml file to add your social media accounts -->
+
+	<div class="inner">
+       <ul class="icons">
+		{% if site.data.social-media %}
+    		{% assign sm = site.data.social-media %}
+    			{% for entry in sm %}
+        			{% assign key = entry | first %}
+        			{% if sm[key].id %}
+            			<li><a href="{{ sm[key].href }}{{ sm[key].id }}" class=" {{ sm[key].fa-icon }}"><span class="label">{{ sm[key].title }}</span></a></li>
+        			{% endif %}
+    			{% endfor %}
+		{% endif %}
+ 	  </ul>
+                <ul class="copyright">
+            <li><a href="https://github.com/shenchingtou/jekyll-strata">&copy; Jekyll Starter Strata</a></li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+             <li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
+          
+          </ul>
+    </div>
